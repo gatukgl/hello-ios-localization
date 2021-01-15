@@ -15,6 +15,7 @@
 		2ED97CBC25B0490600863FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED97CBA25B0490600863FCF /* LaunchScreen.storyboard */; };
 		2ED97CC725B0490700863FCF /* hello_localizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED97CC625B0490700863FCF /* hello_localizationTests.swift */; };
 		2ED97CD225B0490700863FCF /* hello_localizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED97CD125B0490700863FCF /* hello_localizationUITests.swift */; };
+		2ED97D5025B16CA800863FCF /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED97D4F25B16CA800863FCF /* ViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2ED97CCD25B0490700863FCF /* hello-localizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-localizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED97CD125B0490700863FCF /* hello_localizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_localizationUITests.swift; sourceTree = "<group>"; };
 		2ED97CD325B0490700863FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED97D4F25B16CA800863FCF /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2ED97CB825B0490600863FCF /* Assets.xcassets */,
 				2ED97CBA25B0490600863FCF /* LaunchScreen.storyboard */,
 				2ED97CBD25B0490600863FCF /* Info.plist */,
+				2ED97D4F25B16CA800863FCF /* ViewPresenter.swift */,
 			);
 			path = "hello-localization";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED97CB425B0490200863FCF /* ViewController.swift in Sources */,
+				2ED97D5025B16CA800863FCF /* ViewPresenter.swift in Sources */,
 				2ED97CB025B0490200863FCF /* AppDelegate.swift in Sources */,
 				2ED97CB225B0490200863FCF /* SceneDelegate.swift in Sources */,
 			);
